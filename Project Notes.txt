@@ -1,0 +1,66 @@
+CGRA151 - Matthew Kerr 2022
+Assignment 3
+
+Notes on the programs purpose:
+
+3 Levels provided with custom made maps. Each odd numbered level provides a different visual queue.
+All platforms, objects, and entities are spawned due to a csv file to determine placement and type.
+
+
+
+
+Menu Screen:
+The user can interact with 4 buttons on the main menu screen including:
+The play button; puts user into the first level
+Level Select; user can select between 3 levels.
+Controls: A static display of the user controls
+Credits: An animated sequence of credits and references. The user can interact with this as a 'minigame'.
+
+The main menu screen is also animated with infinite parallaxing, and cars which drive across the screen, with random intervals, speeds, and colours.
+
+
+Visuals:
+The visuals of the game follow a consistent theme of dark, alleyway vibes. 
+All images are pixel art based and keep this theme.
+I believe it suits the John-Wick universe, which was the inspiration.
+
+Gameplay:
+The game provides multiple platformer features, such as a hud, and indicators like low ammo and screenshake + blood effects.
+
+Level differentiators include:
+Range of enemies; melee, normal, heavy
+Different platforms.
+Object interactors; car, scrolls, coins
+
+Enemies:
+Each enemy has its own AI algorithm which will determine whether it can see the player,
+and walk towards him. Each enemy has its own unique gameplay, such as guarding, chasing, and idling.
+Enemies also collide with the environment and can be contained to specific areas. 
+
+The melee enemy:
+Fast
+Easy to kill
+Runs towards the player, then idles when it cannot see you
+
+The normal enemy:
+Medium speed
+Moderate to kill
+Walks back and forth between areas
+Will chase the player if it see him
+Will go back to guarding once the player is gone
+Shoots within 1 second periods with assault rifle
+
+The heavy enemy:
+Slow
+Difficult to kill (3 shots)
+Guards an area with pacing.
+Will shoot multiple pellets with shotgun
+Has vulnerability periods between each shot.
+
+Spikes:
+An inanimate object which kills the player on collision.
+
+
+Generally realistic physics with gravity, collision, and interactions.
+
+The player has a shop menu which allows the purchasing of new weapons, health, and ammo.
