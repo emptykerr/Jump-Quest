@@ -1,5 +1,3 @@
-# Jump Quest
- 
 # Jump Quest - NES-Inspired Action Platformer
 
 ![Jump Quest Banner](banner.jpg)
